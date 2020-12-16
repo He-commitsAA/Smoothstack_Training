@@ -22,16 +22,19 @@ public class SumNumbers {
 		Scanner sc = new Scanner(System.in);
 		String userInput = sc.nextLine();
 
-		String[] sepInputs = userInput.split(" ", 0); // delimit the command line input by spaces, making each separated
-														// element a String array element.
-		double[] toAdd = new double[sepInputs.length]; // create array of doubles whose values will be added later.
+		//delimit the command line input by spaces and make each separated element a String array element.
+		String[] sepInputs = userInput.split(" ", 0);
+		
+		// create array of doubles whose values will be added later.
+		double[] toAdd = new double[sepInputs.length];
 
 		for (int a = 0; a < sepInputs.length; a++) {
 			try {
-				toAdd[a] = Double.parseDouble(sepInputs[a]); // see if each element of sepInputs can be converted into
-																// something that can be added, and if yes, do so.
+				// see if each element of sepInputs can be converted into something that can be added, and if yes, do so.
+				toAdd[a] = Double.parseDouble(sepInputs[a]);
 			} catch (NumberFormatException e) {
-				System.out.println("At least one of these values can't be added!"); // if a sepInputs elements can't be added, exit and tell the user.
+				// if a sepInputs elements can't be added, exit and tell the user.
+				System.out.println("At least one of these values can't be added!");
 				System.exit(0);
 			}
 		}
