@@ -16,7 +16,7 @@ public class JavaPatternsDayOne {
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
-		PatternMaker p = new PatternMaker();
+		PatternMaker p = new PatternMaker();  //allows main method to use methods from PatternMaker class (see PatternMaker.java) in order to draw the pattern.
 		int numPeriods = 9;
 
 		System.out.println(p.makeHeader(1));
