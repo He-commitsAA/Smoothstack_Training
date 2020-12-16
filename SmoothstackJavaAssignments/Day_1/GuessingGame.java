@@ -7,8 +7,10 @@
  * @author William
  *
  */
+package com.ss.sf.williamtraining.one;
 
-import java.util.*;
+import java.util.Random;
+import java.util.Scanner;
 
 public class GuessingGame {
 
