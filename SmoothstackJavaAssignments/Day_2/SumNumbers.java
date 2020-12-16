@@ -3,7 +3,6 @@
  */
 package com.ss.sf.williamtraining.javadaytwo;
 
-import java.util.Scanner;
 import java.lang.System;
 
 /**
