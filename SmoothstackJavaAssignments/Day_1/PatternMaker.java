@@ -6,7 +6,7 @@
  * @author William
  *
  */
-package com.ss.sf.williamtraining.one;
+package com.ss.sf.williamtraining.javadayone;
 
 public class PatternMaker {
 
