@@ -7,7 +7,7 @@
  * @author William
  *
  */
-package com.ss.sf.williamtraining.one;
+package com.ss.sf.williamtraining.javadayone;
 
 import java.util.Random;
 import java.util.Scanner;
