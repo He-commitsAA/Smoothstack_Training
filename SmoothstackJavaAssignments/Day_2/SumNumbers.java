@@ -3,24 +3,21 @@
  */
 package com.ss.sf.williamtraining.javadaytwo;
 
-/**
- * @author William
- *
- */
-
 import java.util.Scanner;
 import java.lang.System;
+
+/**
+ * @author William
+ *                  Takes multiple values from the command line and shows the results of adding all of them.
+ */
 
 public class SumNumbers {
 
 	/**
-	 * @param args
+	 * @param userInput What the user types on the command line
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		// Assignment: take multiple values from the command line and show the result of
-		// adding all of them.
 
 		Scanner sc = new Scanner(System.in);
 		String userInput = sc.nextLine();
@@ -34,8 +31,7 @@ public class SumNumbers {
 				toAdd[a] = Double.parseDouble(sepInputs[a]); // see if each element of sepInputs can be converted into
 																// something that can be added, and if yes, do so.
 			} catch (NumberFormatException e) {
-				System.out.println("At least one of these values can't be added!"); // if a sepInputs elements can't be
-																					// added, exit and tell the user.
+				System.out.println("At least one of these values can't be added!"); // if a sepInputs elements can't be added, exit and tell the user.
 				System.exit(0);
 			}
 		}
