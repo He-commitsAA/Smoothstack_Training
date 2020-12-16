@@ -6,6 +6,8 @@
  * @author William
  *
  */
+package com.ss.sf.williamtraining.one;
+
 public class JavaPatternsDayOne {
 
 	/**
