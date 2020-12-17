@@ -5,13 +5,12 @@ package com.ss.sf.williamtraining.javadaytwo;
 
 /**
  * @author William Creates a 2D array and then finds the maximum value in that
- *         array, along with its index in the array.
+ *         array, along with its position.
  */
 public class ArrayMax {
 
 	/**
-	 * main method that constructs array and finds array's maximum value and its
-	 * index.
+	 * Constructs array and finds array's maximum value and the value's position.
 	 */
 	public static void main(String[] args) {
 		findMax(arrayFill());
@@ -31,8 +30,7 @@ public class ArrayMax {
 	}
 
 	/*
-	 * Finds the maximum value in a given 2D array and prints the value and its
-	 * index.
+	 * Finds the maximum value in a given 2D array and prints the value and its position.
 	 */
 	public static void findMax(int[][] myArray) {
 		int max = 0;
