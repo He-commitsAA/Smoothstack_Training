@@ -16,7 +16,7 @@ import java.util.ArrayList;
  */
 public class BakingBowl {
 
-	private ArrayList<String> ingredients;
+	private volatile ArrayList<String> ingredients;
 
 	private static volatile BakingBowl instance = null;
 
@@ -29,7 +29,7 @@ public class BakingBowl {
 
 	/*
 	 * Checks if instance is null, and either creates a new BakingBowl or returns
-	 * with pre-existing.
+	 * with pre-existing instance.
 	 */
 
 	public static BakingBowl getInstance() {
@@ -53,7 +53,7 @@ public class BakingBowl {
 	}
 
 	/*
-	 * Iterates through BakingBowl and prints all ingredients inside.
+	 * Iterates through and prints BakingBowl ingredients.
 	 */
 	public void lookInside() {
 		System.out.println("Looking inside, you see:");
