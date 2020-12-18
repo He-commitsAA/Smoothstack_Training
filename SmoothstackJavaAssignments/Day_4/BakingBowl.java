@@ -31,7 +31,7 @@ public class BakingBowl {
 
 	public static BakingBowl getInstance() {
 		if (instance == null) {
-			synchronized (BakingBowl .class) {
+			synchronized (BakingBowl.class) {
 				if (instance == null) {
 					instance = new BakingBowl();
 				}
