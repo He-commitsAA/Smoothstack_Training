@@ -18,7 +18,7 @@ public class BakingBowl {
 	private static volatile BakingBowl instance = null;
 
 	/*
-	 * Constructor for BakingBowl.
+	 * The constructor for BakingBowl.
 	 */
 	private BakingBowl() {
 		ingredients = new ArrayList<>();
