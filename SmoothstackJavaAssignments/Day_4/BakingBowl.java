@@ -8,11 +8,8 @@ import java.util.ArrayList;
 /**
  * @author William
  *
- *
  *         Virtual baking bowl that can be filled with ingredients (Strings).
- *         Useful as singleton because if multiple chefs are adding to a baking
- *         bowl, you don't want to end up with one bowl with just flour and
- *         another bowl with eggs and milk, etc.
+ *
  */
 public class BakingBowl {
 
