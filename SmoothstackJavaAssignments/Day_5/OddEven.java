@@ -18,7 +18,7 @@ import java.lang.StringBuilder;
 public class OddEven {
 
 	/**
-	 * Creates and transforms ArrayList of Integers to String that shows whether
+	 * Creates and transforms list of Integers to String that shows whether
 	 * each Integer is odd or even.
 	 */
 	public static void main(String[] args) {
