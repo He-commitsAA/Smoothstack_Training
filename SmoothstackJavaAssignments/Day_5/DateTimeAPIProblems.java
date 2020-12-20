@@ -19,9 +19,6 @@ import java.util.Scanner;
  */
 public class DateTimeAPIProblems {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		System.out.println("Length of each month in 2012:");
