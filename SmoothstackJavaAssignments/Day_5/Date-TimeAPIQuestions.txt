@@ -1,0 +1,10 @@
+1. I would use ZonedDateTime to store my birthday, since it can store all of those date and time fields, plus information on timezone.
+
+2. I would store the date as a LocalDateTime or ZonedDateTime object, depending on whether I have the time zone info or not, called "myDateTime"
+and I would call "myDateTime.with( TemporalAdjusters.previous( DayOfWeek.THURSDAY ) ) ;
+
+3. A ZoneId is a time zone identifier, like "Europe/Berlin" that represents a time zone. A ZoneOffset is how much a time zone is offset from
+UTC/GMT by, like "+01:00" for the "Europe/Berlin" time zone.
+
+4. I would store the Instant as "instant" and the time zone I want as "zoneIWant" and call "instant.atZone(ZoneId.of(zoneIWant));".
+
