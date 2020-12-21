@@ -79,6 +79,7 @@ public class Lambdas {
 	 * Figures out if number is palindrome.
 	 */
 	static IntFunction<String> isPalindrome() {
+		
 		return (h -> {
 			int number = h;
 			ArrayList<Integer> digits = new ArrayList<>();
